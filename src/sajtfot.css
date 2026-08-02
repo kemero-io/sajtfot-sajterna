@@ -16,14 +16,14 @@
 }
 
 /*
-  Exempelsajt-pillen ligger fast nere till vänster och finns exakt när
-  forSale är true. Utan lite luft under bandet lägger den sig över
-  copyrighten på små skärmar, och det är inte något varje sajt ska behöva
-  komma ihåg själv. Sätt --sajtfot-demo-clearance om footern behöver mer.
+  Paketet sätter INGEN bottenmarginal. Avståndet från copyrighten till
+  footerns underkant är sajtens egen rytm, och en siffra här blev samma
+  döda glapp på alla elva sajter oavsett om de andas i 12, 14 eller 20.
+
+  Exempelsajt-pillen ligger fast nere till vänster när forSale är true.
+  Att den inte lägger sig över copyrighten är footerns ansvar, genom sin
+  egen nedre padding. Se .kemero/FABRIKEN.md → "Foten är låst".
 */
-.sajtfot[data-for-sale="true"] {
-  padding-bottom: var(--sajtfot-demo-clearance, 2rem);
-}
 
 .sajtfot__sale {
   margin: 0;

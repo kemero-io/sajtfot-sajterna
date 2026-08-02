@@ -2,9 +2,6 @@
 .sajtfot {
   --sajtfot-hairline: var( --sajtfot-line, color-mix(in oklab, currentColor 16%, transparent) );
 }
-.sajtfot[data-for-sale=true] {
-  padding-bottom: var(--sajtfot-demo-clearance, 2rem);
-}
 .sajtfot__sale {
   margin: 0;
   border-top: 1px solid var(--sajtfot-hairline);
