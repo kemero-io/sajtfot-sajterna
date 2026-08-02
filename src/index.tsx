@@ -55,7 +55,10 @@ export function SajtfotSajterna({
   reserveUrl,
 }: SajtfotSajternaProps) {
   return (
-    <div className={className ? `sajtfot ${className}` : "sajtfot"}>
+    <div
+      className={className ? `sajtfot ${className}` : "sajtfot"}
+      data-for-sale={forSale ? "true" : "false"}
+    >
       {/*
         Besökaren som hittat hit direkt får veta att sajten går att köpa, och
         sajterna.se får en länk med riktig ankartext från en publicerad

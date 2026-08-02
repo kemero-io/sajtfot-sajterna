@@ -15,6 +15,16 @@
   );
 }
 
+/*
+  Exempelsajt-pillen ligger fast nere till vänster och finns exakt när
+  forSale är true. Utan lite luft under bandet lägger den sig över
+  copyrighten på små skärmar, och det är inte något varje sajt ska behöva
+  komma ihåg själv. Sätt --sajtfot-demo-clearance om footern behöver mer.
+*/
+.sajtfot[data-for-sale="true"] {
+  padding-bottom: var(--sajtfot-demo-clearance, 2rem);
+}
+
 .sajtfot__sale {
   margin: 0;
   border-top: 1px solid var(--sajtfot-hairline);
