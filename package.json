@@ -1,0 +1,35 @@
+{
+  "name": "@kemero/sajtfot-sajterna",
+  "version": "1.0.0",
+  "description": "Den låsta foten på en katalogsajt. Till salu-raden mot sajterna.se, integritetspolicy-länken och kemero-krediten, samma struktur varje gång.",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./style.css": "./dist/index.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup && node scripts/postbuild.mjs"
+  },
+  "dependencies": {
+    "@kemero/credit": "github:kemero-io/credit"
+  },
+  "peerDependencies": {
+    "react": ">=19"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0"
+  }
+}
