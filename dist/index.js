@@ -43,7 +43,7 @@ function SajtfotSajterna({
       ] }),
       /* @__PURE__ */ jsxs("div", { className: "sajtfot__links", children: [
         /* @__PURE__ */ jsx("a", { className: "sajtfot__privacy", href: privacyHref, children: privacyLabel }),
-        /* @__PURE__ */ jsx(KemeroCredit, { caseUrl: forSale ? reserveUrl : caseUrl })
+        /* @__PURE__ */ jsx(KemeroCredit, { caseUrl })
       ] })
     ] })
   ] });

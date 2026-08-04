@@ -85,10 +85,19 @@ export function SajtfotSajterna({
             {privacyLabel}
           </a>
           {/*
-            På en demo pekar krediten på reservationssidan. Den som klickar
-            undrar "kan jag få den här?", inte "vem var kunden?".
+            Krediten pekar alltid dit caseUrl pekar, också på en demo.
+
+            Den gjorde det inte förut. På en demo skickades den till
+            reservationssidan, med skälet att den som klickar undrar "kan jag
+            få den här?" och inte "vem var kunden?". Det argumentet höll inte
+            av två skäl. Raden RUNT krediten säger redan att sajten är till
+            salu och länkar till sajterna.se med riktig ankartext, alltså
+            dubblerade krediten en länk som redan fanns tio pixlar bort. Och
+            märket är kemeros signatur, inte en köpknapp: den som klickar på
+            en byrås logotyp i en fot vill till byrån, oavsett om sajten råkar
+            vara till salu.
           */}
-          <KemeroCredit caseUrl={forSale ? reserveUrl : caseUrl} />
+          <KemeroCredit caseUrl={caseUrl} />
         </div>
       </div>
     </div>
