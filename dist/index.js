@@ -30,7 +30,7 @@ function SajtfotSajterna({
           children: "sajterna.se"
         }
       ),
-      ". Designen kl\xE4s om till din verksamhet."
+      ". Vi anpassar den till ditt f\xF6retag med din logga, dina texter och dina bilder."
     ] }) : null,
     /* @__PURE__ */ jsxs("div", { className: "sajtfot__meta", children: [
       /* @__PURE__ */ jsxs("p", { className: "sajtfot__copyright", children: [

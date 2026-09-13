@@ -72,7 +72,8 @@ export function SajtfotSajterna({
           >
             sajterna.se
           </a>
-          . Designen kläs om till din verksamhet.
+          . Vi anpassar den till ditt företag med din logga, dina texter
+          och dina bilder.
         </p>
       ) : null}
 

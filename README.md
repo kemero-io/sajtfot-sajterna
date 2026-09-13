@@ -32,8 +32,8 @@ Avståndet ovanför bandet äger footern, resten äger paketet.
 
 I demoläge (`forSale`) en egen rad mellan två hårstreck, ordagrant:
 
-> Den här webbplatsen är till salu på sajterna.se. Designen kläs om till din
-> verksamhet.
+> Den här webbplatsen är till salu på sajterna.se. Vi anpassar den till ditt
+> företag med din logga, dina texter och dina bilder.
 
 Under den en meta-rad med copyright till vänster och integritetspolicy plus
 kemero-krediten till höger. `forSale` false tar bort till salu-raden och
